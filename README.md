@@ -4,7 +4,7 @@ AI Video & Image Scripts
 
 ## Documentation
 
-- Video Image Extracter notebook on [Google colab](https://colab.research.google.com/github/ptran1203/pytorch-animeGAN/blob/master/notebooks/animeGAN.ipynb)
+- Video Image Extracter notebook on [Google colab](https://colab.research.google.com/drive/1h7W_rwBdg1f6re_8nvqlow6p72YLiea2?usp=sharing)
 
 
 **Step 1.** Create anime images from the video
