@@ -10,11 +10,15 @@ AI Video & Image Scripts
 **Step 1.** Create anime images from the video
 
 ```bash
-python3 video_to_images.py --video-path {path}/videos/simpsons1_S31E11.mp4\
-                                --save-path {path}/dataset/simpsons\
-                                --max-image 1800\
-                                --image-size 256\
+python3 video_to_images.py  --video-path {path}/videos/simpsons1_S31E11.mp4\
+                            --save-path {path}/dataset/simpsons\
+                            --frame_splitter 75\
+                            --size (256,256)\
 ```
+
+frame_splitter default value is 100
+size default value is (256,256)
+
 
 **Step 2.** Create edge-smooth version of dataset from **Step 1.**
 
