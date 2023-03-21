@@ -13,14 +13,14 @@ AI Video & Image Scripts
 python3 video_to_images.py  --video-path {path}/videos/simpsons1_S31E11.mp4\
                             --save-path {path}/dataset/simpsons\
                             --frame_splitter 75\
-                            --size (256,256)\
+                            --size (256,256)
 ```
 
 frame_splitter default value is 100
 size default value is (256,256)
 
 
-**Step 2.** Create edge-smooth version of dataset from **Step 1.**
+**** Create edge-smooth version of dataset from **Step 1.**
 
 ```bash
 python3 edge_smooth.py --dataset simpsons --image-size 256
