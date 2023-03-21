@@ -23,5 +23,5 @@ size default value is (256,256)
 **Step 2.** Create edge-smooth version of dataset from **Step 1.**
 
 ```bash
-python3 script/edge_smooth.py --dataset simpsons --image-size 256
+python3 edge_smooth.py --dataset simpsons --image-size 256
 ```
